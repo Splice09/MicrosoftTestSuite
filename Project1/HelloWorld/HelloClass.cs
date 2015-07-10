@@ -10,8 +10,11 @@ namespace Project1.HelloWorld
     /* Test class for: console writing, command line argument reading, and basic loop implementation. */
     class HelloClass
     {
-        /*
-        static void Main(string[] args)
+        //Constructor
+        public HelloClass()
+        {
+        }
+        public void toString(String[] args)
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("You entered the following {0} command line arguments:", args.Length);
@@ -19,9 +22,7 @@ namespace Project1.HelloWorld
             {
                 Console.WriteLine(args[i]);
             }
-            //Sleep for console visibility
-            System.Threading.Thread.Sleep(5000);
         }
-        */
+       
     }
 }

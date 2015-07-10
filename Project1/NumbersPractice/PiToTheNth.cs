@@ -9,7 +9,13 @@ namespace Project1.NumbersPractice
     /* This class takes in an integer from the user and computes pi to the input number decimal place. */
     class PiToTheNth
     {
-        public static void Main(String[] args)
+        //Constructor
+        public PiToTheNth()
+        {
+        }
+
+        /* Gets user input and calls piCalc() */
+        public void getUserInput()
         {
             double pi;
             int userNum; 
