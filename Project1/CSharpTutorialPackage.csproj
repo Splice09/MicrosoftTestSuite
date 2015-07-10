@@ -35,7 +35,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld\Class1.cs" />
+    <Compile Include="HelloWorld\HelloClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumbersPractice\PiToTheNth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
